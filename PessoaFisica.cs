@@ -2,7 +2,7 @@ namespace Teste
 {
     public class PessoaFisica : Pessoa
     {
-        public int cpf { get; set; }
+        public string? cpf { get; set; }
 
         public DateTime dataNascimento {get; set;}
 
